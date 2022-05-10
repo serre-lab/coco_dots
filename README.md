@@ -7,7 +7,7 @@ The format of the original annotation file can be found here: [COCO 2017 Annotat
 
 We have modified the annotations file to include the following, highlighted fields:
 
-![SerreLab Annotations](https://ibb.co/HrcFB8F)
+![SerreLab Annotations](https://i.ibb.co/mHnDbWD/Coco-Dataset-Information.png)
 
 ## Usage
 1. Download the COCO 2017 train and validation datasets:
