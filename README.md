@@ -14,7 +14,9 @@ We have modified the annotations file to include the following, highlighted fiel
   -  [2017 Train Images](http://images.cocodataset.org/zips/train2017.zip)
   -  [2017 Val Images](http://images.cocodataset.org/zips/val2017.zip)
 
-2. Download the Annotation files:
+2. Download the our modified Annotation files:
+  - [SerreLab Train Annotations](https://drive.google.com/file/d/18ZINTHV2ySURONqc_1gWLq3vS7GSqvqC/view?usp=sharing)
+  - [SerreLab Val Annotations](https://drive.google.com/file/d/1EvuhzoNJq0eTYaBQpdfqukY9v1B_-jqs/view?usp=sharing)
 
 3. Create the DataLoaders as follows:
   ```python
