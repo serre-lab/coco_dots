@@ -17,7 +17,7 @@ We have modified the annotations file to include the following, highlighted fiel
 2. Download the Annotation files:
 
 3. Create the DataLoaders as follows:
-  ```
+  ```python
   train_loader = torch.utils.data.DataLoader(
   CocoDots("<PATH_TO_TRAIN_ANNOTATIONS_JSON>", "<PATH_TO_COCO_2017_TRAIN_IMAGES>", conversion='WhiteOutline'),
   batch_size=128, num_workers=4, pin_memory=False, drop_last=True)
