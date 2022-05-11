@@ -1,7 +1,7 @@
 # Coco Dots
 
 ## About
-COCO Dots is based on the original COCO panoptic segmentation dataset. It was designed to train models on a grouping task similar to the one used in a human psychophysics study by Jeurissen et al. (2016). The most important addition to the original COCO panoptic json-file is the serrelab_anns key
+COCO Dots is based on the original COCO panoptic segmentation dataset. It was designed to train models on a grouping task similar to the one used in a human psychophysics study by Jeurissen et al. (2016). The most important addition to the original COCO panoptic json-file is the `serrelab_anns` key.
 
 The format of the original annotation file can be found here: [COCO 2017 Annotations Format](https://cocodataset.org/#format-data)
 
