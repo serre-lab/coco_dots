@@ -1,4 +1,5 @@
 # Coco Dots
+Lore Goetschalckx, Maryam Zolfaghar, Alekh K. Ashok, Lakshmi N. Govindarajan, Drew Linsley, Thomas Serre
 
 ## About
 COCO Dots is based on the original COCO panoptic segmentation dataset. It was designed to train models on a grouping task similar to the one used in a human psychophysics study by Jeurissen et al. (2016). The most important addition to the original COCO panoptic json-file is the `serrelab_anns` key.
@@ -20,6 +21,7 @@ We have modified the annotations file to include the following, highlighted fiel
 
 3. Create the DataLoaders as follows:
   ```python
+  from data import CocoDots
   train_loader = torch.utils.data.DataLoader(
   CocoDots("<PATH_TO_TRAIN_ANNOTATIONS_JSON>", "<PATH_TO_COCO_2017_TRAIN_IMAGES>", conversion='WhiteOutline'),
   batch_size=128, num_workers=4, pin_memory=False, drop_last=True)
